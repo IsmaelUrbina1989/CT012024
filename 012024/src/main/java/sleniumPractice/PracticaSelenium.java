@@ -60,13 +60,14 @@ public class PracticaSelenium {
 		}else {
 			System.out.println("ERROR: El producto NO es correcto");
 		}		
+		Thread.sleep(2000);
 		
 		//DROPDOWN (LISTA DESPLEGABLE)
 		Select dropdown = new Select(driver.findElement(By.className("product_sort_container")));
 		dropdown.selectByValue("lohi");
+		Thread.sleep(2000);
 		
-		
-		//driver.close();
+		driver.close();
 	}
 
 }
