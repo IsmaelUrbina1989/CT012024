@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-27T15:51:38Z" name="Default suite" finished-at="2024-01-27T15:51:47Z" duration-ms="8947">
+  <suite started-at="2024-02-14T23:07:38Z" name="Default suite" finished-at="2024-02-14T23:07:45Z" duration-ms="6869">
     <groups>
     </groups>
-    <test started-at="2024-01-27T15:51:38Z" name="Default test" finished-at="2024-01-27T15:51:47Z" duration-ms="8947">
-      <class name="prueba2024.pruebaTest">
-        <test-method signature="f()[pri:0, instance:prueba2024.pruebaTest@1f53a5dc]" started-at="2024-01-27T09:51:38Z" name="f" finished-at="2024-01-27T09:51:47Z" duration-ms="8918" status="PASS">
+    <test started-at="2024-02-14T23:07:38Z" name="Default test" finished-at="2024-02-14T23:07:45Z" duration-ms="6869">
+      <class name="prueba2024.Soft_assert">
+        <test-method signature="f()[pri:0, instance:prueba2024.Soft_assert@4ff8d125]" started-at="2024-02-14T17:07:38Z" name="f" finished-at="2024-02-14T17:07:45Z" duration-ms="6843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- prueba2024.pruebaTest -->
+      </class> <!-- prueba2024.Soft_assert -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

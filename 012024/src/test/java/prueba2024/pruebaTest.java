@@ -8,7 +8,7 @@ public class pruebaTest {
   @Test
   public void f() throws InterruptedException {
 	  WebDriver driver = new ChromeDriver();
-	  driver.get("https://www.mercadolibre.com");
+	  driver.get("https://www.saucedemo.com/");
 	  Thread.sleep(3000);
 		driver.close();
   }
