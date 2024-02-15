@@ -14,12 +14,9 @@ public class LoginPage {
 	}
 	
 	//WebElements LoginPage
-	@FindBy(id = "user-name") 
-	private WebElement userNameTxt;
-	@FindBy(id = "password") 
-	private WebElement passwordTxt;
-	@FindBy(name = "login-button") 
-	private WebElement btnLogin;
+	@FindBy(id = "user-name") private WebElement userNameTxt;
+	@FindBy(id = "password") private WebElement passwordTxt;
+	@FindBy(name = "login-button") private WebElement btnLogin;
 	
 	//Methods LoginPage
 	public void login (String user, String pwd ) {
