@@ -4,10 +4,10 @@ public class Ejemplo_Array_Unidimensional {
 
 	public static void main(String[] args) {
 		
-		//ejemplos de declaracion de arreglos
+		/*ejemplos de declaracion de arreglos
 		int intArray[];
 		int [] intarray2;
-		double doublearray[];
+		double doublearray[];*/
 		
 		//Declarar un arreglo de strings
 		String [] arr;
@@ -30,8 +30,8 @@ public class Ejemplo_Array_Unidimensional {
 			System.out.println("Elemento en el indice " + i + ": " + arr[i]);
 		}
 		
-		//ejemplo de arreglos con enteros
-		int [] intArr = new int[] {1,2,3,4,5,6,7,8};
+		/*ejemplo de arreglos con enteros
+		int [] intArr = new int[] {1,2,3,4,5,6,7,8};*/
 }
 	
 }
