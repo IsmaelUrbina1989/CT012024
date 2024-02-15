@@ -1,4 +1,4 @@
-package seleniumPractice;
+package _seleniumPractice;
 
 import java.util.List;
 

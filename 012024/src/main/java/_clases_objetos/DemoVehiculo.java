@@ -1,4 +1,4 @@
-package clases_objetos;
+package _clases_objetos;
 
 public class DemoVehiculo {
 
