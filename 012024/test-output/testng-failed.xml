@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="prueba2024.Soft_assert">
+      <class name="loginTestCases.TC01_Login">
         <methods>
-          <include name="f"/>
+          <include name="TC01"/>
+          <include name="startWebDriver"/>
         </methods>
-      </class> <!-- prueba2024.Soft_assert -->
+      </class> <!-- loginTestCases.TC01_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

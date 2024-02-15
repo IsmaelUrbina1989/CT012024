@@ -11,12 +11,11 @@ import setupDriver.SetupDriver;
 
 public class TC01_Login {
 
-	//Declarar e Inicializar el WebDriver
+	//Declarar_Inicializar_WebDriver
 	WebDriver driver = SetupDriver.setupDriver();
 
 	//PageObjects
 	LoginPage loginPage = new LoginPage(driver);
-
 	@BeforeTest
 	public void startWebDriver() {
 		driver.get(GlobalVariables.HOME_PAGE);
@@ -32,11 +31,3 @@ public class TC01_Login {
 		driver.quit();
 	}
 }
-
-
-
-
-
-
-
-
