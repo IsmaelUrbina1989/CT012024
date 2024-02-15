@@ -1,4 +1,4 @@
-package ejemplo.Java;
+package _ejemplo.Java;
 
 public class Ejemplo_Loop_DoWhile {
 
