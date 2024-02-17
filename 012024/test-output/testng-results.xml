@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-17T14:38:56Z" name="Default suite" finished-at="2024-02-17T14:38:59Z" duration-ms="2810">
+  <suite started-at="2024-02-17T14:57:11Z" name="Default suite" finished-at="2024-02-17T14:57:14Z" duration-ms="3709">
     <groups>
     </groups>
-    <test started-at="2024-02-17T14:38:56Z" name="Default test" finished-at="2024-02-17T14:38:59Z" duration-ms="2810">
+    <test started-at="2024-02-17T14:57:11Z" name="Default test" finished-at="2024-02-17T14:57:14Z" duration-ms="3709">
       <class name="loginTestCases.TC02_LoginLockedUser">
-        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTestCases.TC02_LoginLockedUser@3f93e4a8]" started-at="2024-02-17T08:38:56Z" name="startWebDriver" finished-at="2024-02-17T08:38:57Z" duration-ms="1341" status="PASS">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTestCases.TC02_LoginLockedUser@3f93e4a8]" started-at="2024-02-17T08:57:11Z" name="startWebDriver" finished-at="2024-02-17T08:57:14Z" duration-ms="3037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method signature="TC02()[pri:0, instance:loginTestCases.TC02_LoginLockedUser@3f93e4a8]" started-at="2024-02-17T08:38:57Z" name="TC02" finished-at="2024-02-17T08:38:59Z" duration-ms="1116" status="PASS">
+        <test-method signature="TC02()[pri:0, instance:loginTestCases.TC02_LoginLockedUser@3f93e4a8]" started-at="2024-02-17T08:57:14Z" name="TC02" finished-at="2024-02-17T08:57:14Z" duration-ms="372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02 -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTestCases.TC02_LoginLockedUser@3f93e4a8]" started-at="2024-02-17T08:38:59Z" name="closeDriver" finished-at="2024-02-17T08:38:59Z" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTestCases.TC02_LoginLockedUser@3f93e4a8]" started-at="2024-02-17T08:57:14Z" name="closeDriver" finished-at="2024-02-17T08:57:14Z" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
