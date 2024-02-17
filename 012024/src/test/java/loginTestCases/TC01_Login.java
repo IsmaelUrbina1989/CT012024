@@ -16,6 +16,7 @@ public class TC01_Login {
 
 	//PageObjects
 	LoginPage loginPage = new LoginPage(driver);
+	
 	@BeforeTest
 	public void startWebDriver() {
 		driver.get(GlobalVariables.HOME_PAGE);
