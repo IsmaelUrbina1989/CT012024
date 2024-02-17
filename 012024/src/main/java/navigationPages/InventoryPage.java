@@ -17,6 +17,7 @@ public class InventoryPage {
 	@FindBy(id = "add-to-cart-sauce-labs-backpack") private WebElement addBtn;
 	@FindBy(id = "remove-sauce-labs-backpack") private WebElement removeBtn;
 	
+	
 	public boolean verifyRemoveButton() {
 		WrapClass.click(addBtn);
 		return WrapClass.verifyElementDispleyed(removeBtn);

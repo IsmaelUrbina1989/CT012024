@@ -6,4 +6,10 @@ public class GlobalVariables {
 	public static final String STANDARD_USER = "standard_user";
 	public static final String PASSWORD = "secret_sauce";	
 	public static final String LOCKED_USER = "locked_out_user";
+	public static final String FIRSTNAME = "ISMAEL";
+	public static final String LASTNAME = "URBINA";
+	public static final String ZIPCODE = "07300";
+	
+	
+	
 }
