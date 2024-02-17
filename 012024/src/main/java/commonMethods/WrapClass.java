@@ -15,6 +15,10 @@ public class WrapClass {
 	public static String getText (WebElement webUI) {
 		return webUI.getText();
 	}
+	
+	public static boolean verifyElementDispleyed (WebElement webUI) {
+		return webUI.isDisplayed();
+	}
 
 
 }
