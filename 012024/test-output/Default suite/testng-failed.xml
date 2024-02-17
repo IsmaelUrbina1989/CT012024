@@ -6,6 +6,7 @@
       <class name="loginTestCases.TC01_Login">
         <methods>
           <include name="TC01"/>
+          <include name="closeDriver"/>
           <include name="startWebDriver"/>
         </methods>
       </class> <!-- loginTestCases.TC01_Login -->
