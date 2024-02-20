@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import commonMethods.GlobalVariables;
+import commonMethods.WrapClass;
 import navigationPages.InventoryPage;
 import navigationPages.LoginPage;
 import setupDriver.SetupDriver;
@@ -34,6 +35,7 @@ public class TC03_VerifyRemoveButton {
 
 	@AfterTest
 	public void closeDriver() {
+		WrapClass.takeScreenshot(driver, "TC03_VerifyRemoveButton");
 		driver.quit();
 	}
 }
