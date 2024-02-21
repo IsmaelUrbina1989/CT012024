@@ -3,12 +3,6 @@
 <suite thread-count="3" parallel="tests" name="Failed suite [RegressionAutomatedQA]" guice-stage="DEVELOPMENT">
   <test parallel="tests" name="TC02_LoginLockedUser(failed)">
     <classes>
-      <class name="inventoryTestCases.TC03_VerifyRemoveButton">
-        <methods>
-          <include name="closeDriver"/>
-          <include name="startWebDriver"/>
-        </methods>
-      </class> <!-- inventoryTestCases.TC03_VerifyRemoveButton -->
       <class name="loginTestCases.TC02_LoginLockedUser">
         <methods>
           <include name="closeDriver"/>
@@ -22,6 +16,12 @@
           <include name="startWebDriver"/>
         </methods>
       </class> <!-- loginTestCases.TC01_Login -->
+      <class name="inventoryTestCases.TC03_VerifyRemoveButton">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="startWebDriver"/>
+        </methods>
+      </class> <!-- inventoryTestCases.TC03_VerifyRemoveButton -->
     </classes>
   </test> <!-- TC02_LoginLockedUser(failed) -->
 </suite> <!-- Failed suite [RegressionAutomatedQA] -->
