@@ -1,73 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-24T14:52:14Z" name="RegressionAutomatedQA" finished-at="2024-02-24T14:52:23Z" duration-ms="9021">
+  <suite started-at="2024-02-24T15:51:57Z" name="RegressionAutomatedQA" finished-at="2024-02-24T15:52:09Z" duration-ms="11817">
     <groups>
     </groups>
-    <test started-at="2024-02-24T14:52:14Z" name="TC02_LoginLockedUser" finished-at="2024-02-24T14:52:19Z" duration-ms="4424">
-      <class name="loginTestCases.TC02_LoginLockedUser">
-        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTestCases.TC02_LoginLockedUser@62891fc8]" started-at="2024-02-24T08:52:14Z" name="startWebDriver" finished-at="2024-02-24T08:52:16Z" duration-ms="2044" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method signature="TC02()[pri:0, instance:loginTestCases.TC02_LoginLockedUser@62891fc8]" started-at="2024-02-24T08:52:16Z" name="TC02" finished-at="2024-02-24T08:52:17Z" duration-ms="539" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC02 -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTestCases.TC02_LoginLockedUser@62891fc8]" started-at="2024-02-24T08:52:17Z" name="closeDriver" finished-at="2024-02-24T08:52:19Z" duration-ms="1803" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- loginTestCases.TC02_LoginLockedUser -->
-    </test> <!-- TC02_LoginLockedUser -->
-    <test started-at="2024-02-24T14:52:14Z" name="TC01_Login" finished-at="2024-02-24T14:52:19Z" duration-ms="4609">
+    <test started-at="2024-02-24T15:51:57Z" name="TC01_Login" finished-at="2024-02-24T15:52:06Z" duration-ms="8480">
       <class name="loginTestCases.TC01_Login">
-        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTestCases.TC01_Login@7d070ef5]" started-at="2024-02-24T08:52:14Z" name="startWebDriver" finished-at="2024-02-24T08:52:17Z" duration-ms="2226" status="PASS">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTestCases.TC01_Login@6f89292e]" started-at="2024-02-24T09:51:57Z" name="startWebDriver" finished-at="2024-02-24T09:52:02Z" duration-ms="4245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method signature="TC01()[pri:0, instance:loginTestCases.TC01_Login@7d070ef5]" started-at="2024-02-24T08:52:17Z" name="TC01" finished-at="2024-02-24T08:52:17Z" duration-ms="671" status="PASS">
+        <test-method signature="TC01()[pri:0, instance:loginTestCases.TC01_Login@6f89292e]" started-at="2024-02-24T09:52:02Z" name="TC01" finished-at="2024-02-24T09:52:03Z" duration-ms="1288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01 -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTestCases.TC01_Login@7d070ef5]" started-at="2024-02-24T08:52:17Z" name="closeDriver" finished-at="2024-02-24T08:52:19Z" duration-ms="1704" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTestCases.TC01_Login@6f89292e]" started-at="2024-02-24T09:52:03Z" name="closeDriver" finished-at="2024-02-24T09:52:06Z" duration-ms="2919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- loginTestCases.TC01_Login -->
     </test> <!-- TC01_Login -->
-    <test started-at="2024-02-24T14:52:14Z" name="TC04_LoginJsonData" finished-at="2024-02-24T14:52:23Z" duration-ms="8990">
+    <test started-at="2024-02-24T15:51:57Z" name="TC04_LoginJsonData" finished-at="2024-02-24T15:52:07Z" duration-ms="9593">
       <class name="loginTestCases.TC04_LoginJsonData">
-        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTestCases.TC04_LoginJsonData@79d9214d]" started-at="2024-02-24T08:52:14Z" name="startWebDriver" finished-at="2024-02-24T08:52:22Z" duration-ms="7227" status="PASS">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTestCases.TC04_LoginJsonData@10f19647]" started-at="2024-02-24T09:51:57Z" name="startWebDriver" finished-at="2024-02-24T09:51:59Z" duration-ms="1233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method signature="TC04()[pri:0, instance:loginTestCases.TC04_LoginJsonData@79d9214d]" started-at="2024-02-24T08:52:22Z" name="TC04" finished-at="2024-02-24T08:52:22Z" duration-ms="382" status="PASS">
+        <test-method signature="TC04()[pri:0, instance:loginTestCases.TC04_LoginJsonData@10f19647]" started-at="2024-02-24T09:51:59Z" name="TC04" finished-at="2024-02-24T09:52:03Z" duration-ms="4001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC04 -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTestCases.TC04_LoginJsonData@79d9214d]" started-at="2024-02-24T08:52:22Z" name="closeDriver" finished-at="2024-02-24T08:52:23Z" duration-ms="1371" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTestCases.TC04_LoginJsonData@10f19647]" started-at="2024-02-24T09:52:03Z" name="closeDriver" finished-at="2024-02-24T09:52:07Z" duration-ms="4197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- loginTestCases.TC04_LoginJsonData -->
     </test> <!-- TC04_LoginJsonData -->
-    <test started-at="2024-02-24T14:52:14Z" name="TC03_VerifyRemoveButton" finished-at="2024-02-24T14:52:23Z" duration-ms="9021">
+    <test started-at="2024-02-24T15:51:57Z" name="TC03_VerifyRemoveButton" finished-at="2024-02-24T15:52:07Z" duration-ms="9593">
       <class name="inventoryTestCases.TC03_VerifyRemoveButton">
-        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:inventoryTestCases.TC03_VerifyRemoveButton@ad9e63e]" started-at="2024-02-24T08:52:14Z" name="startWebDriver" finished-at="2024-02-24T08:52:19Z" duration-ms="4713" status="PASS">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:inventoryTestCases.TC03_VerifyRemoveButton@336880df]" started-at="2024-02-24T09:51:57Z" name="startWebDriver" finished-at="2024-02-24T09:51:58Z" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method signature="TC03()[pri:0, instance:inventoryTestCases.TC03_VerifyRemoveButton@ad9e63e]" started-at="2024-02-24T08:52:19Z" name="TC03" finished-at="2024-02-24T08:52:20Z" duration-ms="607" status="PASS">
+        <test-method signature="TC03()[pri:0, instance:inventoryTestCases.TC03_VerifyRemoveButton@336880df]" started-at="2024-02-24T09:51:58Z" name="TC03" finished-at="2024-02-24T09:52:03Z" duration-ms="5123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03 -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:inventoryTestCases.TC03_VerifyRemoveButton@ad9e63e]" started-at="2024-02-24T08:52:20Z" name="closeDriver" finished-at="2024-02-24T08:52:23Z" duration-ms="3694" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:inventoryTestCases.TC03_VerifyRemoveButton@336880df]" started-at="2024-02-24T09:52:03Z" name="closeDriver" finished-at="2024-02-24T09:52:07Z" duration-ms="3915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- inventoryTestCases.TC03_VerifyRemoveButton -->
     </test> <!-- TC03_VerifyRemoveButton -->
+    <test started-at="2024-02-24T15:51:57Z" name="TC02_LoginLockedUser" finished-at="2024-02-24T15:52:08Z" duration-ms="11111">
+      <class name="loginTestCases.TC02_LoginLockedUser">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTestCases.TC02_LoginLockedUser@3cff0139]" started-at="2024-02-24T09:51:57Z" name="startWebDriver" finished-at="2024-02-24T09:52:02Z" duration-ms="4251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method signature="TC02()[pri:0, instance:loginTestCases.TC02_LoginLockedUser@3cff0139]" started-at="2024-02-24T09:52:02Z" name="TC02" finished-at="2024-02-24T09:52:03Z" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTestCases.TC02_LoginLockedUser@3cff0139]" started-at="2024-02-24T09:52:03Z" name="closeDriver" finished-at="2024-02-24T09:52:08Z" duration-ms="5703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- loginTestCases.TC02_LoginLockedUser -->
+    </test> <!-- TC02_LoginLockedUser -->
+    <test started-at="2024-02-24T15:52:06Z" name="TC05_LoginExcelData" finished-at="2024-02-24T15:52:09Z" duration-ms="3269">
+      <class name="loginTestCases.TC05_LoginExcelData">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTestCases.TC05_LoginExcelData@6ecdbab8]" started-at="2024-02-24T09:52:06Z" name="startWebDriver" finished-at="2024-02-24T09:52:07Z" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method signature="TC05()[pri:0, instance:loginTestCases.TC05_LoginExcelData@6ecdbab8]" started-at="2024-02-24T09:52:07Z" name="TC05" finished-at="2024-02-24T09:52:08Z" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTestCases.TC05_LoginExcelData@6ecdbab8]" started-at="2024-02-24T09:52:08Z" name="closeDriver" finished-at="2024-02-24T09:52:09Z" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- loginTestCases.TC05_LoginExcelData -->
+    </test> <!-- TC05_LoginExcelData -->
   </suite> <!-- RegressionAutomatedQA -->
 </testng-results>

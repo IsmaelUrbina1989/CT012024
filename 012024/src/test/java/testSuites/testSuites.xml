@@ -26,5 +26,11 @@
 </classes>
 </test> <!-- Test -->
 
+  <test name="TC05_LoginExcelData">
+<classes>
+<class name="loginTestCases.TC05_LoginExcelData"/>
+</classes>
+</test> <!-- Test -->
+
 
 </suite> <!-- Suite -->
