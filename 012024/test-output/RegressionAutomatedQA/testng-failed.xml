@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="tests" name="Failed suite [RegressionAutomatedQA]" guice-stage="DEVELOPMENT">
-  <test parallel="tests" name="TC02_LoginLockedUser(failed)">
+<suite thread-count="4" parallel="tests" name="Failed suite [RegressionAutomatedQA]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="TC04_LoginJsonData(failed)">
     <classes>
       <class name="loginTestCases.TC02_LoginLockedUser">
         <methods>
           <include name="closeDriver"/>
           <include name="startWebDriver"/>
-          <include name="TC02"/>
         </methods>
       </class> <!-- loginTestCases.TC02_LoginLockedUser -->
+      <class name="loginTestCases.TC04_LoginJsonData">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="TC04"/>
+          <include name="startWebDriver"/>
+        </methods>
+      </class> <!-- loginTestCases.TC04_LoginJsonData -->
+      <class name="loginTestCases.TC05_LoginExcelData">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="startWebDriver"/>
+        </methods>
+      </class> <!-- loginTestCases.TC05_LoginExcelData -->
       <class name="loginTestCases.TC01_Login">
         <methods>
           <include name="closeDriver"/>
@@ -23,5 +35,5 @@
         </methods>
       </class> <!-- inventoryTestCases.TC03_VerifyRemoveButton -->
     </classes>
-  </test> <!-- TC02_LoginLockedUser(failed) -->
+  </test> <!-- TC04_LoginJsonData(failed) -->
 </suite> <!-- Failed suite [RegressionAutomatedQA] -->

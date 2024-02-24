@@ -26,8 +26,8 @@ public class TC04_LoginJsonData {
 	@Test
 	public void TC04() {
 		
-		String user = WrapClass.getJsonValue("TC_04", "username");
-		String pwd = WrapClass.getJsonValue("TC_04", "password");
+		String user = WrapClass.getJsonValue("DataJson", "userName");
+		String pwd = WrapClass.getJsonValue("DataJson", "password");
 		
 		loginPage.login(user, pwd); 
 	}
