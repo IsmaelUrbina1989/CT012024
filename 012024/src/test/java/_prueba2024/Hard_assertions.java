@@ -1,17 +1,16 @@
-package prueba2024;
+package _prueba2024;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
+import org.testng.Assert;
 
-public class Soft_assert {
+
+public class Hard_assertions {
   @Test
   public void f() {
 	  
-	//SU FUNCION ES VALIDAR UNA AFIRMACION Y NO DETIENE LA PRUEBA
-	  
-	  SoftAssert softAssert = new SoftAssert();
+	  //SU FUNCION ES VALIDAR UNA AFIRMACION Y SE DETIENE LA PRUEBA
 	  
 	  WebDriver driver = new ChromeDriver();
 	  driver.get("https://www.saucedemo.com/");
@@ -19,13 +18,10 @@ public class Soft_assert {
 	  
 	  String actualTitle = driver.getTitle();
 	  String expectedTitle = "Swag Labs";
-	  String badTitle = "My Store";
 	  
-	  softAssert.assertEquals(actualTitle, expectedTitle);
-	  softAssert.assertEquals(actualTitle, badTitle);
+	  Assert.assertEquals(actualTitle, expectedTitle);
 	  
-	  softAssert.assertAll();
+	  driver.close();
 	  
-	  driver.quit();
   }
 }

@@ -1,4 +1,4 @@
-package prueba2024;
+package _prueba2024;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
